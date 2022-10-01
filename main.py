@@ -11,7 +11,6 @@ class Tamagotchi():
             while(True):
                 os.system('cls')
                 newName = input('   Jakie jest moje imie: ')
-                #max 14 znakow zrobic
                 if len(newName) <= 14:
                     self.__name = newName
                     break
